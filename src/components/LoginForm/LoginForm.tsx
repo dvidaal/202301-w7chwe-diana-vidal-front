@@ -16,7 +16,7 @@ const LoginForm = (): JSX.Element => {
           aria-label="Field password of user"
         />
 
-        <button className="log" type="submit" aria-label="Send button">
+        <button className="log" type="submit" aria-label="Log in">
           Log in
         </button>
       </form>

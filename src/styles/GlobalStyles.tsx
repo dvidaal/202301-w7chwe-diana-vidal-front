@@ -27,8 +27,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 100px;
   border-radius: 20px;
   cursor: pointer;
   border: none

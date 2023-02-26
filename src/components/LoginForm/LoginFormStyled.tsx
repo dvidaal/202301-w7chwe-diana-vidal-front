@@ -11,8 +11,8 @@ const LoginFormStyled = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
       rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -23,10 +23,12 @@ const LoginFormStyled = styled.div`
     &__input {
       padding: 10px;
       border-radius: 20px;
+      width: 250px;
+      height: 150px;
     }
   }
 
-  .log {
+  button {
     background-image: linear-gradient(150deg, #9500ff, #09f, #00ddff);
     border-radius: 8px;
     color: #fff;
@@ -35,7 +37,7 @@ const LoginFormStyled = styled.div`
     transition: 0.3s;
   }
 
-  log:active {
+  button:active {
     transform: scale(0.9);
   }
 `;
