@@ -4,7 +4,7 @@ const LoginForm = (): JSX.Element => {
   return (
     <LoginFormStyled>
       <form className="containerForm">
-        <h1>Log in</h1>
+        <h2>Log in</h2>
         <input
           className="containerForm__input"
           placeholder="Username"
