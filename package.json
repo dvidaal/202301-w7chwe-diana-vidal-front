@@ -45,8 +45,10 @@
     ]
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.26",
     "husky": "^8.0.0",
     "jest": "^27.5.1",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "styled-components": "^5.3.6"
   }
 }
